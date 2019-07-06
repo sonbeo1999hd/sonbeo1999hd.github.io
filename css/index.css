@@ -1,0 +1,182 @@
+* {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+h2 {}
+
+body {
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+    width: 1536px;
+}
+
+.btn {
+    background-color: #637d63;
+    border-color: white;
+    width: 100%;
+    text-align: center;
+    width: 283px;
+    /* margin-left: 70px; */
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+
+
+.btn a {
+    color: white;
+}
+
+.top {
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.top i {
+    margin-left: 10px
+}
+
+.search {
+    display: grid;
+    grid-template-columns: auto 2fr 1fr;
+    margin-bottom: 1px;
+}
+
+.search i {
+    margin-left: -30px;
+    margin-top: 7px;
+}
+
+.header a {
+    color: white;
+}
+
+.header {
+    background-color: #f2f2f2;
+    height: 400px;
+    background: url("https://sample-videos.com/img/Sample-png-image-3mb.png");
+    background-size: cover;
+    color: white;
+}
+
+.header select {
+    margin-left: 50px
+}
+
+.header h2 {
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+
+.header p {
+    margin-left: 50px;
+    max-width: 250px;
+}
+
+.top a {
+    margin-right: 40px;
+}
+.top a:hover{
+    color: red;
+}
+.left {
+    margin-left: 400px;
+}
+
+img {
+    border-radius: 5px;
+    white-space: nowrap;
+    margin: 10px 0px 10px 0px;
+}
+
+.popular img, .hot img, .deal img {
+    border-radius: 5px;
+    white-space: nowrap;
+    margin: 10px 10px 10px 0px;
+}
+
+.body {
+    display: flex;
+    text-align: left;
+    margin-top: 40px
+}
+
+.popular , .hot, .deal{
+    max-width: 400px;
+    width: 400px;
+    background-color: #f2f2f2;
+    margin-right: 42px;
+    margin-left: 42px
+}
+
+.items {
+    max-width: 400px;
+    width: 400px;
+    background-color: #f2f2f2;
+    margin-right: 42px;
+    margin-left: 50px
+}
+
+.hot {
+    margin-left: -30px;
+}
+
+.welcome {
+    max-width: 400px;
+    width: 400px;
+    background-color: #f2f2f2;
+    margin-right: 42px;
+    margin-left: 50px
+}
+
+.options {
+    margin-left: 100px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background: goldenrod; */
+}
+
+p.return {
+    text-align: center;
+    padding: 10px;
+    background: pink;
+}
+p.return a:hover{
+    color: red;
+}
+.top select {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 34px;
+    position: relative;
+    margin-right: -20px;
+}
+
+.top input {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    margin-left:
+}
+
+.top-search input, select {
+    box-sizing: border-box;
+}
+
+.departments {
+    height: 25px;
+}
